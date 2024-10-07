@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>MAK Limited</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="./styles.css">
+<link rel="icon" href="./iconblack.ico" type="image/x-icon">
+</head>
+<style>
+    footer {
+            background-color: #000;
+            color: rgb(239, 239, 239);
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    .social {
+        display: flex;  
+        gap: 10px;   
+        justify-content: center;
+        align-items: center;   
+    }
+
+    .social a {
+        display: inline-block;
+        width: 42px;
+        height: 42px;
+    }
+</style>
+
+<body>
+
+<!-- Navigation (Stays on Top) -->
+<div class="-top -bar -black ">
+    <a href="./index.html" class="-bar-item -button"><image src="logo.png"  height="50"></a>
+      <div class="-right -hide-small">
+      <a href="./index.html" class="-bar-item -button" style="font-size: 20;">Home</a>
+      <a href="./products.html" class="-bar-item -button">Products</a>
+      <a href="./contact.html" class="-bar-item -button">Contact</a>
+    </div>
+  </div>
+<div id="home" class="-content">
+
+<main>
+<div id="contact" class="-container -center -padding-64">
+
+<h2 class="-wide">Contact</h2>
+Ajman, UAE<br>
+Phone: +971 50 866 0552<br>
+Email: azmathayan21@gmail.com<br>
+<div class ="social">
+    <a href="https://www.facebook.com/">
+        <img src = "./logo-facebook.svg" alt = facebook
+    </a>
+
+    <a href="https://www.instagram.com/">
+        <img src = "./logo-instagram.svg" alt = instagram
+    </a>
+    <a href="https://twitter.com/i/flow/login">
+        <img src = "./logo-twitter.svg" alt = twitter
+    </a>
+
+</div>
+<p class="-opacity -center"><i>Contact Customer Service</i></p>
+
+<form action="/action_page.php" target="_blank">
+<input class="-input" type="text" placeholder="Name" required name="Name">
+<input class="-input" type="text" placeholder="Email" required name="Email">
+<input class="-input" type="text" placeholder="Message" required name="Message"><br>
+<button class="-button -black" type="submit">SEND</button>
+</form>
+<br>
+<img src="dubai.jpg" class="-image" style="width:100%">
+<p class="-center -padding">Powered by <a href="https://www.github.com/Mak-21" title=".CSS" target="_blank">MAK</a></p>
+</div>
+
+</div>
+</main>
+</body>
+
+<footer>
+    &#174; 2024 MAK Limited. All rights reserved.
+</footer>
+</html>
